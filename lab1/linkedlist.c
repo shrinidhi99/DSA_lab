@@ -1,11 +1,18 @@
+/* Implementing Singly Linked list involving create,insert,delete,find mid element,display and many more operations on the list*/
+//Select the options for particular operation to be performed
+
+
 #include<stdio.h>
 #include<stdlib.h>
+
 struct slist{
 int data;
 struct slist *adr;
 }node;
+
 static int cntnodes;
 struct slist *head=NULL,*last =NULL;
+
 void push()
 {
     int val;
@@ -33,6 +40,7 @@ void push()
     }
         display(head);
 }
+
 void display(struct slist *ptr)
 {
     printf("the nodes are :\n");
@@ -47,6 +55,7 @@ void display(struct slist *ptr)
 void deletenode();
 void insert();
 void findmidnode();
+
 void main()
 {
     printf("create nodes\n");
@@ -67,6 +76,7 @@ void main()
         default : exit(1);
     }
 }
+
 void deletenode()
 {
     printf("enter the pos\n");
@@ -92,6 +102,7 @@ void deletenode()
     }
     display(head);
 }
+
 void insert()
 {
     printf("enter the pos and val\n");

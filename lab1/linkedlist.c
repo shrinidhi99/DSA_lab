@@ -75,6 +75,7 @@ void main()
                 break;
         default : exit(1);
     }
+    free(head);
 }
 
 void deletenode()

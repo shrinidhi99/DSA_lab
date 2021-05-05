@@ -1,3 +1,3 @@
 DSA
 ---
->Problems practiced in DSA lab during  SEM-3
+> Problems practiced in DSA lab (Odd Semester 2018)
